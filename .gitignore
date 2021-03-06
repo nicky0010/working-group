@@ -1,3 +1,9 @@
 .idea
-terraform/.terraform
-terraform/terraform.tfstate
+terraform/EC2-Launch/.terraform
+terraform/EC2-Launch/terraform.tfstate
+terraform/EC2-Launch/.terraform.lock.hcl
+terraform/EC2-Launch/terraform.tfstate.backup
+terraform/ECS-Launch/.terraform
+terraform/ECS-Launch/terraform.tfstate
+terraform/ECS-Launch/terraform.lock.hcl
+terraform/ECS-Launch/terraform.tfstate.backup

@@ -3,7 +3,7 @@ data "template_file" "ecs_demo" {
 
   vars = {
     container_name = "ecs-demo-container"
-    image          = "694568596848.dkr.ecr.ap-northeast-1.amazonaws.com/ecs-demo"
+    image          = "694568596848.dkr.ecr.ap-northeast-1.amazonaws.com/ecs-demo:latest"
     cpu            = 1
     memory         = 128
     container_port = 80
